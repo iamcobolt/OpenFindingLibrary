@@ -28,5 +28,3 @@ Findings are formatted in JSON for storage and quick reference.
 
 # Methodology
 - CVSS Scores - CVSS scores are not used by all users and are different based on situation. Therefore OFL takes no responsibility for providing these scores, instead users should set the CVSS score when the finding is used based on environment variables.
-=======
-Findings are formatted in JSON for storage and quick reference.
