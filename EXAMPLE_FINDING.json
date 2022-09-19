@@ -1,0 +1,35 @@
+{
+  "finding_title": "Finding Title",  
+  "risk_raiting": 123,
+  "CVSS_score": 5.5,
+  "risk_raiting_notes": "Describe the reashon for the risk raiting in depth here. If risk raiting is dependant on speciffic or variable please note why and/or when.",
+  "description": "Finding Description",
+  "remediation_details_nontechnical": "High level remeditation details",
+  "remediation_details_technical": "Technical Remediation Details",
+  "reference_list": [
+    {
+      "url": "https://example.com",
+      "description": "example URL used for reference"},
+    {
+      "cve_ID": "CVE-2022-0001",
+      "title": "CVE Title"
+    }
+  ],
+  "author": "Name/Handle",
+  "editor_1": "Name/Handle",
+  "editor_2": "Name/Handle",
+  "editing_notes": [
+    {"note": [
+      {"date": "2014-03-12T13:37:27+00:00"},
+      {"author": "Name/Handle"},
+      {"note": "Notes"}
+    ]
+    },
+    {"note": [
+      {"date": "2014-03-12T13:37:27+00:00"},
+      {"author": "Name/Handle"},
+      {"note": "Notes"}
+    ]
+    }
+  ]
+}
