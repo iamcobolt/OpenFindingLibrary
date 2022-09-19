@@ -25,3 +25,8 @@ Findings are formatted in JSON for storage and quick reference.
     - Technical editor may request revisions
 5. Technical Writer will QA and review for quality and consistancy.
 6. Finding will be reviewed by review board member for final merge
+
+# Methodology
+- CVSS Scores - CVSS scores are not used by all users and are different based on situation. Therefore OFL takes no responsibility for providing these scores, instead users should set the CVSS score when the finding is used based on environment variables.
+=======
+Findings are formatted in JSON for storage and quick reference.
