@@ -1,7 +1,6 @@
 {
-  "finding_title": "Finding Title",  
+  "finding_title": "Finding Title",
   "risk_raiting": 123,
-  "CVSS_score": 5.5,
   "risk_raiting_notes": "Describe the reashon for the risk raiting in depth here. If risk raiting is dependant on speciffic or variable please note why and/or when.",
   "description": "Finding Description",
   "remediation_details_nontechnical": "High level remeditation details",
