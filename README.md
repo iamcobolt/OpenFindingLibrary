@@ -1,6 +1,18 @@
 # Open Finding Library
 
-The Open Finding Library is a community managed and maintained library of findings with the goal of centralising security reporting findings.
+The Open Finding Library is a managed and maintained library of findings with the goal of centralising security reporting finding templates avliable for use at any consultancy or for any orgonization usage.
 
-# Formatting (JSON)
+# Finding Formatting
+  
 
+# Folder Structure
+- Mobile_Application_Findings - 
+- Network_Findings - 
+- Purple_Team_Findings - 
+- Red_Team_Findings - 
+- Social_Engineering_Findings - 
+- Thick_Client_Findings - 
+- Thin_Client_Findings - 
+- Web_Application_Findings -
+
+# Quality Assurance Process
