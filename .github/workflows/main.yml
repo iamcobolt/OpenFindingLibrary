@@ -1,0 +1,28 @@
+name: CI/CD Pipeline
+
+on: [push]
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run tests
+      run: python -m unittest discover
+
+    - name: Deploy
+      env:
+        COSMOS_DB_HOST: ${{ secrets.COSMOS_DB_HOST }}
+        COSMOS_DB_KEY: ${{ secrets.COSMOS_DB_KEY }}
+      run: python deploy.py
