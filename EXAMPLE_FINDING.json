@@ -1,7 +1,8 @@
 {
-  "finding_title": "Finding Title",
-  "risk_raiting": 123,
+  "finding_title": "Finding Title", //title of the finding
+  "risk_raiting": 123, // Risk raiting should be 1-5 corrosponding to [1 Informational, 2 low, 3 Medium, 4 High, 5 Critical]
   "risk_raiting_notes": "Describe the reashon for the risk raiting in depth here. If risk raiting is dependant on speciffic or variable please note why and/or when.",
+  "risk_impact" : ""
   "description": "Finding Description",
   "remediation_details_nontechnical": "High level remeditation details",
   "remediation_details_technical": "Technical Remediation Details",
@@ -17,6 +18,9 @@
   "author": "Name/Handle",
   "editor_1": "Name/Handle",
   "editor_2": "Name/Handle",
+  "active" : false, //This flag is used for limiting searchs to only findings that have been through PR and are community accessable
+  "beta" : false,
+  "deprecated" : false,
   "editing_notes": [
     {"note": [
       {"date": "2014-03-12T13:37:27+00:00"},

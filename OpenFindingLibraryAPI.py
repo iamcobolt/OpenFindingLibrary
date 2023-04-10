@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from git add requirements.txt import Flask, request, jsonify
 from azure.cosmos import CosmosClient
 import os
 
