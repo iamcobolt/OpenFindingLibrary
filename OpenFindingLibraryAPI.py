@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Configure the Cosmos DB connection
-url = os.environ['ACCOUNT_URI']
+url = os.environ['https://ofldb01.documents.azure.com:443/']
 key = os.environ['ACCOUNT_KEY']
 client = CosmosClient(url, credential=key)
 database_name = 'your_database_name'
