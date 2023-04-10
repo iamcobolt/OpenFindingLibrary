@@ -3,7 +3,7 @@
 The Open Finding Library is a managed and maintained library of findings with the goal of centralising security reporting finding templates avliable for use at any consultancy or for any orgonization usage.
 
 # Finding Formatting
-Findings are formatted in JSON for storage and quick reference.
+Findings are submitted and retrieved from the API formatted in JSON. Storage is maintained by OFL and paid for by enterprise licences.
 
 # Orgonisation Structure
 - Mobile_Application_Findings -
