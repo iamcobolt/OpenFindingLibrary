@@ -1,6 +1,6 @@
 # Risk Rating Definitions
 
-This file describes how the subjective risk has been calculated. If your organisation is using the accompanied risk rating included in the finding it should be based off these definitions.
+The Open Finding Library defines risk using the following guidelines. While finding ratings are ultimately subjective and contextual OFL attempts to provide 
 
 ---
 
