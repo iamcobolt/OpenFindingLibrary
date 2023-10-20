@@ -1,8 +1,10 @@
 {
-  "finding_title": "Finding Title", //title of the finding
-  "risk_raiting": 123, // Risk raiting should be 1-5 corrosponding to [1 Informational, 2 low, 3 Medium, 4 High, 5 Critical]
-  "risk_raiting_notes": "Describe the reashon for the risk raiting in depth here. If risk raiting is dependant on speciffic or variable please note why and/or when.",
-  "risk_impact" : ""
+  "finding_title": "Reflected Cross Site Scripting (XSS)", 
+  "risk_raiting": 3,
+  "risk_raiting_notes": "The risk raiting of medium is based on the fact that the vulnerability is not exploitable in all browsers and requires a user to click on a link to be exploited.",
+  "cvss_score": 3.1,
+  "impact" : "",
+  "tactic" : "Initial Access",
   "description": "Finding Description",
   "remediation_details_nontechnical": "High level remeditation details",
   "remediation_details_technical": "Technical Remediation Details",
@@ -18,7 +20,7 @@
   "author": "Name/Handle",
   "editor_1": "Name/Handle",
   "editor_2": "Name/Handle",
-  "active" : false, //This flag is used for limiting searchs to only findings that have been through PR and are community accessable
+  "active" : false,
   "beta" : false,
   "deprecated" : false,
   "editing_notes": [
